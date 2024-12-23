@@ -1,0 +1,110 @@
+.property-item-main {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 960px;
+    margin: 10px auto; /* Combined margin styles for cleaner code */
+    background-color: #f9f9f9; /* Optional: Add a subtle background for better visibility */
+  }
+  
+  .property-item-left,
+  .property-item-right {
+    flex: 1;
+  }
+  
+  .property-item-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .images {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start; /* Align small images to the top */
+  }
+  
+  .large-image {
+    flex: 2; /* Large image takes up more space */
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover; /* Ensures image maintains aspect ratio and fits its container */
+  }
+  
+  .small-images {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1; /* Smaller width for small images */
+  }
+  
+  .small-images img {
+    width: 100%; /* Ensure images scale to fit the container */
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover; /* Maintains aspect ratio while scaling */
+  }
+  
+  .price {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .property-item-right h2 {
+    margin-bottom: 10px;
+    margin-top: -10px;
+  }
+  
+  .property-item-right p {
+    margin: 5px 0;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .property-item-main {
+      flex-direction: column; /* Stack elements vertically on smaller screens */
+      padding: 15px;
+    }
+  
+    .images {
+      flex-direction: column; /* Stack images vertically */
+    }
+  
+    .large-image {
+      width: 100%; /* Adjust to fit the full container */
+    }
+  
+    .small-images {
+      flex-direction: row; /* Display small images in a single row */
+      gap: 5px;
+    }
+  
+    .small-images img {
+      width: 30%; /* Adjust size of small images */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .property-item-main {
+      padding: 10px;
+    }
+  
+    .price {
+      font-size: 1.2em;
+    }
+  
+    .property-item-right h2 {
+      font-size: 1em;
+    }
+  
+    .property-item-right p {
+      font-size: 0.9em;
+    }
+  }
+  

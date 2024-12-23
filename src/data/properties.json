@@ -1,0 +1,143 @@
+{
+	"properties": [
+		{
+			"id": "prop1",
+			"type": "House",
+			"bedrooms": 3,
+			"price": 750000,
+			"tenure": "Freehold",
+			"description": "Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior...",
+			"location": "Petts Wood Road, Petts Wood, Orpington BR5",
+			"pictures": [
+				"/assets/images/prop1/img1.jpeg",
+				"/assets/images/prop1/img2.jpeg",
+				"/assets/images/prop1/img3.jpeg",
+				"/assets/images/prop1/img4.jpeg",
+				"/assets/images/prop1/img5.jpeg",
+				"/assets/images/prop1/img6.jpeg",
+				"/assets/images/prop1/img7.jpeg",
+				"/assets/images/prop1/img8.jpeg"
+			],
+			"url": "properties/prop1.html",
+			"added": {
+				"month": "October",
+				"day": 12,
+				"year": 2022
+			}
+		},
+		{
+			"id": "prop2",
+			"type": "Flat",
+			"bedrooms": 2,
+			"price": 399995,
+			"tenure": "Freehold",
+			"description": "Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms. This apartment being only five years old, is still under a 10 year building guarantee...",
+			"location": "Crofton Road Orpington BR6",
+			"pictures": [
+				"/assets/images/prop2/img1.jpeg",
+				"/assets/images/prop2/img2.jpeg",
+				"/assets/images/prop2/img3.jpeg"
+			],
+			"url": "properties/prop2.html",
+			"added": {
+				"month": "September",
+				"day": 14,
+				"year": 2022
+			}
+		},
+		{
+			"id": "prop3",
+			"type": "Detached House",
+			"bedrooms": 5,
+			"price": 1250000,
+			"tenure": "Freehold",
+			"description": "A spacious five-bedroom detached house located in a prestigious area of Sevenoaks. This property features a large garden, double garage, and multiple reception rooms. Ideal for families looking for countryside charm with easy access to London.",
+			"location": "Sevenoaks TN13",
+			"pictures": [
+				"/assets/images/prop3/img1.jpeg",
+				"/assets/images/prop3/img2.jpeg"
+			],
+			"url": "properties/prop3.html",
+			"added": {
+				"month": "August",
+				"day": 5,
+				"year": 2022
+			}
+		},
+		{
+			"id": "prop4",
+			"type": "Studio",
+			"bedrooms": 0,
+			"price": 200000,
+			"tenure": "Leasehold",
+			"description": "Compact and modern studio apartment in the heart of Manchester city center. Perfect for first-time buyers or investors looking for a low-maintenance property with excellent transport links.",
+			"location": "Manchester M1",
+			"pictures": [
+				"/assets/images/prop4/img1.jpeg"
+			],
+			"url": "properties/prop4.html",
+			"added": {
+				"month": "July",
+				"day": 20,
+				"year": 2023
+			}
+		},
+		{
+			"id": "prop5",
+			"type": "Cottage",
+			"bedrooms": 2,
+			"price": 450000,
+			"tenure": "Freehold",
+			"description": "Charming two-bedroom cottage nestled in the idyllic Cotswolds. Features exposed beams, a wood-burning stove, and a picturesque garden. Ideal for those seeking a peaceful countryside retreat.",
+			"location": "Bourton-on-the-Water, Gloucestershire GL54",
+			"pictures": [
+				"/assets/images/prop5/img1.jpeg",
+				"/assets/images/prop5/img2.jpeg"
+			],
+			"url": "properties/prop5.html",
+			"added": {
+				"month": "May",
+				"day": 10,
+				"year": 2023
+			}
+		},
+		{
+			"id": "prop6",
+			"type": "Penthouse",
+			"bedrooms": 3,
+			"price": 2500000,
+			"tenure": "Leasehold",
+			"description": "Luxurious three-bedroom penthouse apartment in central London. Boasts floor-to-ceiling windows, private terrace, and state-of-the-art facilities including concierge and gym.",
+			"location": "Mayfair, London W1",
+			"pictures": [
+				"/assets/images/prop6/img1.jpeg",
+				"/assets/images/prop6/img2.jpeg"
+			],
+			"url": "properties/prop6.html",
+			"added": {
+				"month": "April",
+				"day": 15,
+				"year": 2023
+			}
+		},
+		{
+			"id": "prop7",
+			"type": "Terraced House",
+			"bedrooms": 4,
+			"price": 600000,
+			"tenure": "Freehold",
+			"description": "Four-bedroom terraced house with spacious living areas and a large back garden. Conveniently located near schools and public transport, making it an excellent choice for families.",
+			"location": "Cambridge CB1",
+			"pictures": [
+				"/assets/images/prop7/img1.jpeg",
+				"/assets/images/prop7/img2.jpeg"
+			],
+			"url": "properties/prop7.html",
+			"added": {
+				"month": "June",
+				"day": 8,
+				"year": 2023
+			}
+		}
+	]
+}
